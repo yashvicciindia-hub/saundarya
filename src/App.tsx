@@ -12,6 +12,7 @@ import Contact from '@/pages/Contact';
 import BecomePartner from '@/pages/BecomePartner';
 import RequestQuote from '@/pages/RequestQuote';
 import Chatbot from '@/components/Chatbot';
+import SaundaryaVedaAppDownloadCTA from '@/components/SaundaryaVedaAppDownloadCTA';
 
 function initializeTheme() {
   const savedTheme = localStorage.getItem('saundarya-theme');
@@ -56,6 +57,7 @@ function App() {
         </main>
         <Footer />
         <Chatbot />
+        <SaundaryaVedaAppDownloadCTA />
       </div>
     </BrowserRouter>
   );
